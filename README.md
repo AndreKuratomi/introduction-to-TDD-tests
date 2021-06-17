@@ -54,5 +54,5 @@ Depois de completar esta avaliação, adicione ka-br-correcoes (grupo do GitLab)
 
 # Dúvidas Frequentes
 
-- *O são [mocha](https://mochajs.org/) e [chai](http://www.chaijs.com/)?* São bibliotecas que facilitam escrever testes unitários. Se tivéssemos usado apenas `console.assert`, não teríamos tido a habilidade de fornecer dicas tão úteis assim sobre como resolver cada kata.
+- *O que são [mocha](https://mochajs.org/) e [chai](http://www.chaijs.com/)?* São bibliotecas que facilitam escrever testes unitários. Se tivéssemos usado apenas `console.assert`, não teríamos tido a habilidade de fornecer dicas tão úteis assim sobre como resolver cada kata.
 - *Em `package.json`, eu vi que as bibliotecas de teste são escritas em `devdependencies`, em vez de `dependencies`, por que?* Usamos `dependencies` para bibliotecas que são *obrigatórias* para a execução da aplicação, e `devdependencies` para bibliotecas que auxiliam no desenvolvimento de uma aplicação, mas que não são necessárias para que ela rode de fato. Neste caso em particular, a aplicação é apenas um punhado de katas, e, tecnicamente, nós podemos usar tais funções sem executar testes, portanto `devdependencies` é usado.
