@@ -1,4 +1,4 @@
-# Estendendo-o-oregon-trail-com-heranca_Testes-BDD
+# Introduction to TDD tests
 
 - [Descrição](#descrição)
 - [Instalação](#instalação)
@@ -9,7 +9,7 @@
 
 # Descrição
 
-<p>Em continuidade à aplicação <b>[OregonTrail](https://github.com/AndreKuratomi/OregonTrail-com-sintaxe-de-classes_Testes)</b> <strong>Estendendo OregonTrail com herança</strong> é uma aplicação que, como o próprio nome diz, estende de OregonTrail criando personagens Hunter e Doctor com sintaxe de classes. Esta aplicação utiliza HTML5, CSS3 e a linguagem Javascript com orientação a objetos e Testes BDD.</p>
+<p><strong>Introduction to TDD tests</strong> é uma aplicação que, como o próprio nome diz, é uma primeira aplicação com testes TDD com base em funções simples. Esta aplicação utiliza a linguagem Javascript e Testes TDD.</p>
 <br>
 
 # Instalação
@@ -28,13 +28,13 @@ git init
 <h5>1. Fazer o clone do reposítório <strong>OregonTrail com sintaxe de classes</strong> na sua máquina pelo terminal do computador ou pelo do IDE:</h5>
 
 ```
-git clone https://github.com/AndreKuratomi/Estendendo-OregonTrail-com-heranca_Testes-BDD.git
+git clone https://github.com/AndreKuratomi/introduction-to-TDD-tests.git
 ```
 
 <p>Entrar na pasta criada:</p>
 
 ```
-cd estendendo-OregonTrail-com-heranca_Testes-BDD
+cd introduction-to-TDD-tests
 ```
 
 <p>E instalar as dependências:</p>
@@ -47,9 +47,6 @@ npm install
 
 
 # Utilização
-
-
-<h3>Via VSCode:</h3>
 
 <p>Para rodar os testes precisamos rodar o seguinte comando:</p>
 
