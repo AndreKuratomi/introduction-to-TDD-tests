@@ -9,7 +9,7 @@
 
 # Descrição
 
-<p><strong>Introduction to TDD tests</strong> é uma aplicação que, como o próprio nome diz, é uma primeira aplicação com testes TDD com base em funções simples. Esta aplicação utiliza a linguagem Javascript e Testes TDD.</p>
+<p><strong>Introduction to TDD tests</strong> é uma aplicação que, como o próprio nome diz, é um primeiro exercício com testes TDD com base em funções simples. Esta aplicação utiliza a linguagem Javascript e Testes TDD.</p>
 <br>
 
 # Instalação
