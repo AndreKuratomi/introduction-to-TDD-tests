@@ -1,58 +1,64 @@
-# Katas ES6
+# Estendendo-o-oregon-trail-com-heranca_Testes-BDD
 
-Neste exercício, você converterá uma série de expressões e funções escritas em es5 para serem usadas com es6.
+- [Descrição](#descrição)
+- [Instalação](#instalação)
+- [Utilização](#utilização)
+- [Termos de uso](#termos-de-uso)
 
-# Início
+<br>
 
-Para começar você precisa fazer isso:
+# Descrição
 
-1. instalar dependências
-1. executar testes
-1. completar katas
+<p>Em continuidade à aplicação <b>[OregonTrail](https://github.com/AndreKuratomi/OregonTrail-com-sintaxe-de-classes_Testes)</b> <strong>Estendendo OregonTrail com herança</strong> é uma aplicação que, como o próprio nome diz, estende de OregonTrail criando personagens Hunter e Doctor com sintaxe de classes. Esta aplicação utiliza HTML5, CSS3 e a linguagem Javascript com orientação a objetos e Testes BDD.</p>
+<br>
 
-## Instalando Dependências
+# Instalação
 
-Para instalar dependências, faça o *fork [deste repositório](https://gitlab.com/kenzie-academy-brasil/se/fe/code-quality/s_katas-6), e clone-o* para sua máquina. A partir da raiz do repositório. Lembre-se que, porque você está fazendo o *fork* do repositório, não é necessário criar um novo diretório ou executar `npm init` nele primeiro. Quando tiver com o repositório em sua máquina, você pode instalar as dependências a partir da raiz do repositório usando o `npm`:
+<h5>0. Primeiramente, é necessário já ter instalado na própria máquina:</h5>
 
-```bash
+- <p> Um <b>editor de código</b>, conhecido também como <b>IDE</b>. Por exemplo, o <b>[Visual Studio Code (VSCode)](https://code.visualstudio.com/)</b>.</p>
+
+- <p> E versionar o diretório para receber o clone da aplicação:</p>
+
+```
+git init
+```
+
+<br>
+<h5>1. Fazer o clone do reposítório <strong>OregonTrail com sintaxe de classes</strong> na sua máquina pelo terminal do computador ou pelo do IDE:</h5>
+
+```
+git clone https://github.com/AndreKuratomi/Estendendo-OregonTrail-com-heranca_Testes-BDD.git
+```
+
+<p>Entrar na pasta criada:</p>
+
+```
+cd estendendo-OregonTrail-com-heranca_Testes-BDD
+```
+
+<p>E instalar as dependências:</p>
+
+```
 npm install
 ```
 
-## Executando Testes
+<br>
 
-O resultado dos testes será um sinal do quão perto você estará de completar os diversos katas. Você deve executar o seguinte comando em um novo terminal:
 
-```bash
+# Utilização
+
+
+<h3>Via VSCode:</h3>
+
+<p>Para rodar os testes precisamos rodar o seguinte comando:</p>
+
+```
 npm test
 ```
 
-Então, deve aparecer um resultado como este: 
 
-![test output screenshot](https://raw.githubusercontent.com/kenzieacademy/es6-katas/master/test_output.png)
+# Termos de uso
 
-Aqui você pode ver que temos várias falhas, bem como uma ideia do que estamos esperando.
+<p>Esta aplicação atende a fins exclusivamente didáticos e não possui qualquer intuito comercial.</p>
 
-### Completando Katas
-
-Você encontrará funções e expressões escritas em es5 com comentários acima delas explicando quais features do es6 gostaríamos que você usasse para convertê-las. Por exemplo, o primeiro kata, "arrow functions", diz para você converter a função add para uma função arrow. Portanto, você converteria isso:
-
-```js
-function add(x, y) {
-   return x + y;
-}
-```
-
-nisso para passar nos testes:
-
-```js
-const add = (x, y) => {
-   return x + y;
-};
-```
-
-Depois de completar esta avaliação, adicione ka-br-correcoes (grupo do GitLab) ao seu repositório como Reporter e envie a URL de seu repositório.
-
-# Dúvidas Frequentes
-
-- *O que são [mocha](https://mochajs.org/) e [chai](http://www.chaijs.com/)?* São bibliotecas que facilitam escrever testes unitários. Se tivéssemos usado apenas `console.assert`, não teríamos tido a habilidade de fornecer dicas tão úteis assim sobre como resolver cada kata.
-- *Em `package.json`, eu vi que as bibliotecas de teste são escritas em `devdependencies`, em vez de `dependencies`, por que?* Usamos `dependencies` para bibliotecas que são *obrigatórias* para a execução da aplicação, e `devdependencies` para bibliotecas que auxiliam no desenvolvimento de uma aplicação, mas que não são necessárias para que ela rode de fato. Neste caso em particular, a aplicação é apenas um punhado de katas, e, tecnicamente, nós podemos usar tais funções sem executar testes, portanto `devdependencies` é usado.
